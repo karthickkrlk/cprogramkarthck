@@ -1,14 +1,14 @@
 #include<stdio.h>
 
-void main()
+int main()
 {
-    int count, n;
+    int i, n;
     printf("\nEnter the number:");
     scanf("%d",&n);
-    for(count=1;count<=n;count++)
+    for(i=1;i<=n;i++)
         {
             printf(" hello\n");
         }
-getch();
+return 0;
 }
 
