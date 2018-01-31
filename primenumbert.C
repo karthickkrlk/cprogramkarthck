@@ -1,24 +1,24 @@
 #include<stdio.h>
 int main()
 {
-int low,high,i flag;
+int l,h,i flag;
 Printf("enter two number(interval):")
-Scanf("%d%d",&low,&high);
-Printf("prime number between%dand%d are.",low,high);
-While(low<high)
+Scanf("%d%d",&l,&h);
+Printf("prime number between%dand%d are.",l,h);
+While(l<h)
 {
 Flag=0;
-For(i=2;i<=low/2;++i)
+For(i=2;i<=l/2;++i)
 {
-If(low%i==0)
+If(l%i==0)
 {
-Flag=1;
+flag=1;
 Break;
 }
 }
 If(flag==0)
-Printf("%d",low);
-++Low;
+Printf("%d",l);
+++l;
 }
 Return 0;
 }
