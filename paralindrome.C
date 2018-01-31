@@ -2,19 +2,19 @@
 #include<conio.h>
 void main()
 {
-	int a,b;
+	int s,d;
 	int x=0;
 	printf("enter the number");
-	scanf("%d",&a);
-	while(a>0)
+	scanf("%d",&s);
+	while(s>0)
 	{
-		b=a%10;
-		x=x*10+b;
-		a=a/10;
+		d=s%10;
+		x=x*10+d;
+		d=d/10;
 	}
 	
-	if(x==a)
-	printf("%d is a palindrome",a);
+	if(x==d)
+	printf("%d is a palindrome",d);
 	else
-	printf("%d is not a palindrome",a);
+	printf("%d is not a palindrome",d);
 }
