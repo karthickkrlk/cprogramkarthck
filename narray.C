@@ -1,6 +1,6 @@
 #include<stdio.h>
 #define size 50
-void main()
+int main()
 {
 int a[size],i,j,temp,n;
 printf("enter num");
@@ -25,4 +25,5 @@ for (i = 0; i < n; i++)
     {
         printf("%d\n", a[i]);
     }
+    return(0);
     }
