@@ -1,6 +1,6 @@
 #include <stdio.h>
  
-int main()
+void main()
 {
     char    str[100];
     int countDigits,countAlphabet,countSpecialChar,countSpaces;
@@ -25,5 +25,5 @@ int main()
  
     printf("\nDigits: %d \nAlphabets: %d \nSpaces: %d \nSpecial Characters: %d",countDigits,countAlphabet,countSpaces,countSpecialChar);
  
-    return 0;
+   getch ();
 }
