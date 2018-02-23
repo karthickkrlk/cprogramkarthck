@@ -11,7 +11,7 @@ printf("\n Enter the range:");
 scanf("%d",&a);
 for(i=1;i<=a;i++)
 {
-printf(" %s\n",str);
+printf(" %s\n\t",str);
 }
 getch();
 }
