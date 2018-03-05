@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 
 int a;
@@ -11,5 +11,5 @@ scanf("%d",&a);
 a=a+1;
 }
 printf("\n Number of the integers are:%d",a);
-getch ();
+return 0;
 }
