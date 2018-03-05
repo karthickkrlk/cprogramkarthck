@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 long int a,b=0;
 clrscr();
@@ -12,5 +12,5 @@ a=a/10;
 b=b+1;
 }
 printf("\n Number of the integers are:%ld",b);
-getch ();
+return 0;
 }
